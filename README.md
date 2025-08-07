@@ -17,6 +17,22 @@ This project implements **DETR (Detection Transformer)** with a **Vision Transfo
 
 The model processes images through a pipeline of ViT backbone, transformer encoder-decoder, and detection head for end-to-end object detection without requiring NMS or anchor generation.
 
+## Overall Pipeline
+
+Image (224x224x3) 
+    ↓
+ViT Backbone (패치 임베딩 + 12 transformer layers)
+    ↓  
+Features (196 patches × 384 dim)
+    ↓
+DETR Transformer (encoder 6 layers + decoder 6 layers)
+    ↓
+Object Embeddings (100 queries × 256 dim)
+    ↓
+Detection Head (classification + bbox regression)
+    ↓
+Predictions (100 objects: class + box)
+
 ### Model Components
 1. **Vision Transformer (ViT)**: Patch-based image encoder
 2. **Transformer Encoder**: Self-attention for global context
