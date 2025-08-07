@@ -313,3 +313,15 @@ env*/
 
 # Conda
 .condarc
+
+# Project setup files
+setup_modules/
+setup_project.py
+
+# Template files (until implemented)
+infer.py
+train.py
+notebooks/01_data_exploration.ipynb
+
+# All __init__.py files
+**/__init__.py
