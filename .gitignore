@@ -1,0 +1,315 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoint/
+checkpoints/
+
+# TensorFlow
+*.h5
+*.hdf5
+saved_models/
+
+# Weights & Biases
+wandb/
+.wandb/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+
+# Data files (usually too large for git)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Large datasets
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Images and videos (if too large)
+# Uncomment if needed
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.mp4
+# *.avi
+# *.mov
+
+# Model outputs and results
+results/logs/
+results/checkpoints/
+results/outputs/
+outputs/
+logs/
+
+# Experiment tracking
+experiments/
+.neptune/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vim
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Local configuration files
+config.local.yaml
+config.local.yml
+.env.local
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kubeconfig
+
+# Personal notes and scratch files
+notes.txt
+scratch.py
+temp.py
+test_*.py
+debug_*.py
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+cache/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python virtual environments
+venv*/
+env*/
+.conda/
+
+# Conda
+.condarc
